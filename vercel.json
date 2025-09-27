@@ -1,0 +1,34 @@
+{
+    "version": 2,
+    "framework": null,
+    "functions": {
+        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ],
+    "env": {
+        "APP_ENV": "production",
+        "APP DEBUG": "true",
+        "APP URL": "",
+        "APP KEY": "base64:tjBcaBfLQCB/WxtlRcuBEKwdJTScaNNDSDhFgKlHi7g=",
+        "DB _CONNECTION": "mysql",
+        "DB_HOST" : "",
+        "DB_PORT": "",
+        "DB DATABASE": "",
+        "DB USERNAME": "",
+        "DB_PASSWORD": "",
+
+        "APP_ CONFIG CACHE": "/tmp/config.php",
+        "APP_EVENTS_CACHE": "/tmp/events.php",
+        "APP_ PACKAGES_CACHE": "/tmp/packages.php",
+        "APP ROUTES CACHE": "/tmp/routes.php",
+
+        "CACHE_DRIVER": "array",
+        "LOG CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie"
+    }
+}
