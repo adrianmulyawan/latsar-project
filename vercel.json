@@ -13,22 +13,22 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP URL": "",
-        "APP KEY": "base64:tjBcaBfLQCB/WxtlRcuBEKwdJTScaNNDSDhFgKlHi7g=",
+        "APP_URL": "",
+        "APP_KEY": "base64:tjBcaBfLQCB/WxtlRcuBEKwdJTScaNNDSDhFgKlHi7g=",
         "DB _CONNECTION": "mysql",
         "DB_HOST" : "",
         "DB_PORT": "",
-        "DB DATABASE": "",
-        "DB USERNAME": "",
+        "DB_DATABASE": "",
+        "DB_USERNAME": "",
         "DB_PASSWORD": "",
 
-        "APP_ CONFIG CACHE": "/tmp/config.php",
+        "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
-        "APP_ PACKAGES_CACHE": "/tmp/packages.php",
-        "APP ROUTES CACHE": "/tmp/routes.php",
+        "APP_PACKAGES_CACHE": "/tmp/packages.php",
+        "APP_ROUTES_CACHE": "/tmp/routes.php",
 
         "CACHE_DRIVER": "array",
-        "LOG CHANNEL": "stderr",
+        "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     }
 }
