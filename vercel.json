@@ -12,7 +12,7 @@
     ],
     "env": {
         "APP_ENV": "production",
-        "APP DEBUG": "true",
+        "APP_DEBUG": "true",
         "APP URL": "",
         "APP KEY": "base64:tjBcaBfLQCB/WxtlRcuBEKwdJTScaNNDSDhFgKlHi7g=",
         "DB _CONNECTION": "mysql",
